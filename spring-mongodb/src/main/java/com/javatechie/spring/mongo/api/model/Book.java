@@ -1,4 +1,4 @@
-package com.javachie.spring.mongo.api.model;
+package com.javatechie.spring.mongo.api.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

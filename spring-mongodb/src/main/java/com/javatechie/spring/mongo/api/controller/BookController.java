@@ -1,4 +1,4 @@
-package com.javatechie.spring.mongo.api;
+package com.javatechie.spring.mongo.api.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.javachie.spring.mongo.api.model.Book;
-import com.javachie.spring.mongo.api.repository.BookRepository;
+import com.javatechie.spring.mongo.api.model.Book;
+import com.javatechie.spring.mongo.api.repository.BookRepository;
 
 @RestController
 public class BookController {
